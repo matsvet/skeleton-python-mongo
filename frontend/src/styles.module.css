@@ -1,3 +1,20 @@
+.App {
+    padding: 2rem;
+    width: 90vw;
+    height: 90vh;
+    border-radius: 2rem;
+    overflow: auto;
+    background-color: white;
+}
+
+.list {
+    margin-top: 1rem;
+    padding: 1rem;
+    border-radius: 1rem;
+    overflow: auto;
+    background-color: lightgray;
+}
+
 .btn_main {
     color: white;
     background-color: dodgerblue;
@@ -84,6 +101,7 @@
 .flex_column {
     display: flex;
     flex-direction: column;
+    gap: 1rem;
 }
 
 .flex_center {
@@ -95,7 +113,6 @@
 }
 
 .input {
-    margin: 1rem 0;
     padding: .5rem 1rem;
     border-radius: .5rem;
     outline: none;
@@ -127,4 +144,9 @@
 
 .series_item_info h1, h2 {
     padding-bottom: 1rem;
+}
+
+.italic {
+    font-style: italic;
+    color: grey;
 }
