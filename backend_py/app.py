@@ -14,3 +14,4 @@ def ping():
 # from routes import *
 from routes.item_collection1_routes import *
 from routes.item_collection2_routes import *
+from routes.item_collection3_routes import *
