@@ -156,10 +156,6 @@ const ThirdCrudCollection = () => {
 
   useEffect(() => {
     fetchItems();
-    /** Вместо вебсокетов */
-    setInterval(() => {
-      fetchItems();
-    }, 5000);
   }, []);
 
   return (
